@@ -40,7 +40,7 @@ const Navbar = () => {
     return (
         <Nav>
             <Container>  
-               <NavLogo to="head" onClick={scrollTop}>
+               <NavLogo onClick={scrollTop}>
                    <ReactSVG/> KADIRRETIR
                    </NavLogo>
                 <Hamburger onClick={handleOpen}>
