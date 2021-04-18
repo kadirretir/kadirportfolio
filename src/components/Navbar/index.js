@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { Nav, Container, NavLogo, Ul, Li, NavLink, Hamburger } from './NavbarElements'
 import {ReactComponent as ReactSVG} from '../../images/Svg.svg';
+import {animateScroll as scroll} from 'react-scroll';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -21,20 +22,36 @@ const Navbar = () => {
         window.addEventListener("resize", handleResize);
     }, [])
 
+    const scrollTop = () => {
+        scroll.scrollToTop(standartScroll);
+    }
+
+    const standartScroll = {
+        spy: true,
+        smooth: true,
+        hashSpy: true,
+        offset: 50,
+        duration: 400,
+        delay: 100,
+        isDynamic: true,
+        ignoreCancelEvents: false
+    }
 
     return (
         <Nav>
             <Container>  
-               <NavLogo to="/"><ReactSVG/> KADIRRETIR</NavLogo>
+               <NavLogo to="head" onClick={scrollTop}>
+                   <ReactSVG/> KADIRRETIR
+                   </NavLogo>
                 <Hamburger onClick={handleOpen}>
                     <span></span>
                     <span></span>
                     <span></span>
                 </Hamburger>
                <Ul isOpen={isOpen}>
-                   <Li><NavLink to="/">Anasayfa</NavLink></Li>
-                   <Li><NavLink to="/projects">Projeler</NavLink></Li>
-                   <Li><NavLink to="/contact">İletişim</NavLink></Li>
+                   <Li><NavLink onClick={scrollTop}>Anasayfa</NavLink></Li>
+                   <Li><NavLink to="projects" {...standartScroll}>Projeler</NavLink></Li>
+                   <Li><NavLink href="#contact">İletişim</NavLink></Li>
                </Ul>
             </Container>
         </Nav>

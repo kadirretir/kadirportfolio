@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-import {Link as LinkR} from 'react-router-dom';
+import {Link as LinkS} from 'react-scroll';
 
 // NAV STYYLES //
 export const Nav = styled.nav`
-position: absolute;
+position: fixed;
 top: 0;
 min-height: 8rem;
 background-color: var(--fourth-color);
@@ -11,6 +11,7 @@ width: 100%;
 display: flex;
 flex-direction: row;
 justify-content: center;
+z-index: 90;
 
 
 `
@@ -29,12 +30,13 @@ align-items: center;
 `
 
 // LOGO STYLES //
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(LinkS)`
 color: var(--secondary-color);
 font-size: 2.7rem;
 letter-spacing: 0.3rem;
 text-decoration: none;
 user-select: none;
+cursor: pointer;
 @media screen and (max-width: 1200px) {
     font-size: 2.5rem;
 }
@@ -95,7 +97,8 @@ text-align: center;
 
 
 // NAV LINKS  //
-export const NavLink = styled(LinkR)`
+export const NavLink = styled(LinkS)`
+cursor: pointer;
 font-size: 2rem;
 font-family: var(--secondary-font);
 font-weight: 400;
