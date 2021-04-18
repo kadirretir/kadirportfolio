@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kadirportfolio/static/css/main.5da2f52f.chunk.css",
-    "main.js": "/kadirportfolio/static/js/main.77609784.chunk.js",
-    "main.js.map": "/kadirportfolio/static/js/main.77609784.chunk.js.map",
+    "main.js": "/kadirportfolio/static/js/main.bf049d2c.chunk.js",
+    "main.js.map": "/kadirportfolio/static/js/main.bf049d2c.chunk.js.map",
     "runtime-main.js": "/kadirportfolio/static/js/runtime-main.ece987dc.js",
     "runtime-main.js.map": "/kadirportfolio/static/js/runtime-main.ece987dc.js.map",
     "static/js/2.719f9985.chunk.js": "/kadirportfolio/static/js/2.719f9985.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.ece987dc.js",
     "static/js/2.719f9985.chunk.js",
     "static/css/main.5da2f52f.chunk.css",
-    "static/js/main.77609784.chunk.js"
+    "static/js/main.bf049d2c.chunk.js"
   ]
 }
