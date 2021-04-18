@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/kadirportfolio/static/css/main.5da2f52f.chunk.css",
+    "main.js": "/kadirportfolio/static/js/main.77609784.chunk.js",
+    "main.js.map": "/kadirportfolio/static/js/main.77609784.chunk.js.map",
+    "runtime-main.js": "/kadirportfolio/static/js/runtime-main.ece987dc.js",
+    "runtime-main.js.map": "/kadirportfolio/static/js/runtime-main.ece987dc.js.map",
+    "static/js/2.719f9985.chunk.js": "/kadirportfolio/static/js/2.719f9985.chunk.js",
+    "static/js/2.719f9985.chunk.js.map": "/kadirportfolio/static/js/2.719f9985.chunk.js.map",
+    "index.html": "/kadirportfolio/index.html",
+    "static/css/main.5da2f52f.chunk.css.map": "/kadirportfolio/static/css/main.5da2f52f.chunk.css.map",
+    "static/js/2.719f9985.chunk.js.LICENSE.txt": "/kadirportfolio/static/js/2.719f9985.chunk.js.LICENSE.txt",
+    "static/media/Svg.f66a10cd.svg": "/kadirportfolio/static/media/Svg.f66a10cd.svg",
+    "static/media/reacthotel.5528c910.png": "/kadirportfolio/static/media/reacthotel.5528c910.png",
+    "static/media/reactnetflix.1c596c27.png": "/kadirportfolio/static/media/reactnetflix.1c596c27.png",
+    "static/media/stars.a8b5259f.jpg": "/kadirportfolio/static/media/stars.a8b5259f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ece987dc.js",
+    "static/js/2.719f9985.chunk.js",
+    "static/css/main.5da2f52f.chunk.css",
+    "static/js/main.77609784.chunk.js"
+  ]
+}
