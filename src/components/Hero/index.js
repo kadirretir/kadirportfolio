@@ -24,9 +24,9 @@ const settings = {
     fade: true,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: true,
+/*     autoplay: true,
     pauseOnHover: true,
-    autoplaySpeed: 4000 
+    autoplaySpeed: 4000  */
 };
 
 
@@ -40,7 +40,6 @@ const Hero = () => {
                         <HeroContainer >
                             <H1>PROJELER</H1>
                             <Paragraf>
-                               İşimi özenle yapan ve ciddiye alan biriyim.
                                Aşağıda çalışmalarımı görebilirsiniz.
                                </Paragraf>
                         </HeroContainer>

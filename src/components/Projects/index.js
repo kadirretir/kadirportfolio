@@ -1,11 +1,12 @@
 import React from 'react'
 import reacthotel from '../../images/reacthotel.png';
 import reactnetflix from '../../images/reactnetflix.png';
+import kadirportfolio from '../../images/kadirportfolio.png';
 import {FaCode} from 'react-icons/fa';
 import {RiPagesLine} from 'react-icons/ri';
 import {
-    About,
-    AboutContainer,
+    Projects,
+    ProjectsContainer,
     Cards,
     Card,
     Img,
@@ -16,14 +17,14 @@ import {
     P,
     PageLink,
     Buttons
-} from './AboutmeElements';
+} from './ProjectsElements';
 
 const Aboutme = () => {
  
     return (
         <>
-            <About id="projects">
-                <AboutContainer>
+            <Projects id="projects">
+                <ProjectsContainer>
                     <Cards>
                         <Card>
                             <ImgWrapper>
@@ -53,7 +54,7 @@ const Aboutme = () => {
 
                         <Card>
                             <ImgWrapper>
-                                <Img src={reactnetflix} width="617" height="360" alt="hotelproject" />
+                                <Img src={reactnetflix} width="617" height="360" alt="netflixclone" />
                             </ImgWrapper>
                             <CardBody>
                                 <CardMiddle>
@@ -74,10 +75,36 @@ const Aboutme = () => {
                                 </Buttons>
                             </CardBody>
                         </Card>
+
+                        <Card>
+                            <ImgWrapper>
+                                <Img src={kadirportfolio} width="617" height="360" alt="portfolio" />
+                            </ImgWrapper>
+                            <CardBody>
+                                <CardMiddle>
+                                    <H3>PORTFOLİO SİTESİ</H3>
+                                    <P>
+                                        Bu proje beni, benim kim olduğumu, yaptığım siteleri,
+                                        bildiğim teknolojileri ve kim olduğumu yansıtıyor.
+                                        Proje React ile SPA olarak styled components'ler kullanılarak 
+                                        oluşturuldu.
+                                  </P>
+                                </CardMiddle>
+                                <Buttons>
+                                    <PageLink target="_blank" href="https://kadirretir.github.io/kadirportfolio/">
+                                       <RiPagesLine/> SAYFA
+                                        </PageLink>
+
+                                    <PageLink target="_blank" href="https://github.com/kadirretir/kadirportfolio">
+                                    <FaCode/> KOD
+                                        </PageLink>
+                                </Buttons>
+                            </CardBody>
+                        </Card>
                     </Cards>
 
-                </AboutContainer>
-            </About>
+                </ProjectsContainer>
+            </Projects>
         </>
     )
 }

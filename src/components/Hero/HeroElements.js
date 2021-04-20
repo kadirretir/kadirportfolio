@@ -41,11 +41,11 @@ transform: translate(-50%, -50%);
 export const StyledSlider = styled(Slider)`
 
 .slick-slide div {
-  outline: none !important;
+  outline: none;
  }
 
 .slick-list {
-    padding: 0 !important;
+    padding: 0;
 }
 
 .slick-dots {
@@ -79,9 +79,6 @@ top: 50%;
 min-height: 25vh;
 left: 50%;
 transform: translate(-50%, -50%);
-/*  @media screen and (max-width: 1200px) {
-    height: 20rem;
-} */
 
  @media screen and (max-width: 768px) {
    min-height: 30vh;
@@ -89,7 +86,7 @@ transform: translate(-50%, -50%);
 
 `
 
-export const Paragraf = styled.p`
+export const Paragraf = styled.div`
     font-size: 2rem;
     color: var(--third-color) ;
     margin-top: 4rem;

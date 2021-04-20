@@ -1,39 +1,45 @@
 import styled from 'styled-components';
 
-export const About = styled.section`
+export const Projects = styled.section`
 width: 100%;
-min-height: 80vh;
-padding: 7rem 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 `
 
-export const AboutContainer = styled.div`
+export const ProjectsContainer = styled.div`
 width: 80%;
 margin: 0 auto;
+min-height: 100vh;
+
+@media screen and (max-width: 280px) {
+    width: 90%;
+}
 `
 
 export const Cards = styled.div`
     
     margin: 0 auto;
-    height: 60rem;
+    min-height: 60vh;
     display: grid;
     width: 100%;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
-    grid-row-gap: 2rem;
+    grid-row-gap: 5rem;
      @media screen and (max-width: 1200px) {
-        height: 100rem;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         width: 75%;
     }  
 
     @media screen and (max-width: 768px) {
-        height: 120rem;
+        grid-row-gap: 2rem;
         width: 100%;
     }
 
     @media screen and (max-width: 576px) {
-        height: 80rem;
+
         width: 100%;
     }
 
