@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/kadirportfolio/static/css/main.4e69fdbb.chunk.css",
-    "main.js": "/kadirportfolio/static/js/main.5b68a05f.chunk.js",
-    "main.js.map": "/kadirportfolio/static/js/main.5b68a05f.chunk.js.map",
+    "main.css": "/kadirportfolio/static/css/main.0b5c7db0.chunk.css",
+    "main.js": "/kadirportfolio/static/js/main.0c7b4398.chunk.js",
+    "main.js.map": "/kadirportfolio/static/js/main.0c7b4398.chunk.js.map",
     "runtime-main.js": "/kadirportfolio/static/js/runtime-main.ece987dc.js",
     "runtime-main.js.map": "/kadirportfolio/static/js/runtime-main.ece987dc.js.map",
     "static/js/2.3727f320.chunk.js": "/kadirportfolio/static/js/2.3727f320.chunk.js",
     "static/js/2.3727f320.chunk.js.map": "/kadirportfolio/static/js/2.3727f320.chunk.js.map",
     "index.html": "/kadirportfolio/index.html",
-    "static/css/main.4e69fdbb.chunk.css.map": "/kadirportfolio/static/css/main.4e69fdbb.chunk.css.map",
+    "static/css/main.0b5c7db0.chunk.css.map": "/kadirportfolio/static/css/main.0b5c7db0.chunk.css.map",
     "static/js/2.3727f320.chunk.js.LICENSE.txt": "/kadirportfolio/static/js/2.3727f320.chunk.js.LICENSE.txt",
     "static/media/Svg.f66a10cd.svg": "/kadirportfolio/static/media/Svg.f66a10cd.svg",
     "static/media/kadirportfolio.cc8b5a90.png": "/kadirportfolio/static/media/kadirportfolio.cc8b5a90.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.ece987dc.js",
     "static/js/2.3727f320.chunk.js",
-    "static/css/main.4e69fdbb.chunk.css",
-    "static/js/main.5b68a05f.chunk.js"
+    "static/css/main.0b5c7db0.chunk.css",
+    "static/js/main.0c7b4398.chunk.js"
   ]
 }
