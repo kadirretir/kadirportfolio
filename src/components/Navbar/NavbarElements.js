@@ -21,8 +21,10 @@ margin: 0 auto;
 width: 80%;
 height: auto;
 display: flex;
-justify-content: space-between;
+flex-direction: row;
 align-items: center;
+justify-content: space-between;
+
 
 @media screen and (max-width: 1200px) {
     width: 90%;
@@ -37,6 +39,7 @@ letter-spacing: 0.3rem;
 text-decoration: none;
 user-select: none;
 cursor: pointer;
+justify-self: flex-start;
 @media screen and (max-width: 1200px) {
     font-size: 2.5rem;
 }
@@ -71,9 +74,36 @@ span {
 `
 
 
+export const Resume = styled.a`
+width: 11rem;
+height: 3.5rem;
+line-height: 3.5rem;
+text-align: center;
+border-radius: 5%;
+font-weight: 400;
+outline: none;
+border: none;
+transition: var(--general-transition);
+cursor: pointer;
+color: var(--light-color);
+font-size: 1.2rem;
+background-color: var(--primary-color);
+&:hover {
+    background-color: var(--third-color);
+}
+@media screen and (max-width: 1200px) {
+    background-color: var(--fourth-color);
+    width: 11rem;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+`
+
+
 // UL LIST  //
 export const Ul = styled.ul`
-width: 25%;
+min-width: 29%;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -85,7 +115,6 @@ transition: right 0.3s ease-in;
     top: 80px;
     width: 100%;
     background: rgba(132, 84, 96, 0.9);
-
     flex-direction: column;
 }  
 `
@@ -94,9 +123,6 @@ transition: right 0.3s ease-in;
 // LİST ELEMENTS  //
 export const Li = styled.li`
 margin-right: 1rem;
-&:last-of-type {
-margin-right: 0;
-}
 text-align: center;
 @media screen and (max-width: 1200px) {
     width: 100%;

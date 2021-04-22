@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Nav, Container, NavLogo, Ul, Li, NavLink, Hamburger } from './NavbarElements';
+import { Nav, Container, NavLogo, Ul, Li, NavLink, Hamburger, Resume } from './NavbarElements';
 import { ReactComponent as ReactSVG } from '../../images/Svg.svg';
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -80,7 +80,12 @@ const Navbar = () => {
                     <Li><NavLink to="github"  {...standartScroll}>GitHub</NavLink></Li>
                     <Li><NavLink to="about"  {...standartScroll}>Hakkımda</NavLink></Li>
                     <Li><NavLink to="contact"  {...standartScroll}>İletişim</NavLink></Li>
+                    <Resume target="_blank" href="https://drive.google.com/file/d/1WRZMtr7U39C0eJUVR2wuiJiDZYyWoN16/view">
+                        ÖZGEÇMİŞ
+                </Resume>
                 </Ul>
+
+
             </Container>
         </Nav>
     )
