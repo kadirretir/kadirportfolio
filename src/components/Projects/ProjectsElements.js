@@ -46,6 +46,10 @@ export const Cards = styled.div`
 
 `
 
+export const CardLink = styled.a`
+
+`
+
 export const Card = styled.div`
     width: 70%;
     align-self: center;
@@ -59,7 +63,6 @@ export const Card = styled.div`
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    cursor: pointer;
     &:hover {
         transform: scale(1.02);
     }
@@ -71,6 +74,10 @@ export const Card = styled.div`
     @media screen and (max-width: 768px) {
         justify-content: center;
     } 
+
+    @media screen and (min-width: 1600px) {
+            max-height: 49rem;
+    }
 `
 
 

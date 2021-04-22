@@ -24,29 +24,35 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 html {
    font-family: var(--primary-font);
     font-size: 62.5%;
+    scroll-margin-top: 80rem;
 }
 
-html, body{
+html, body {
     height: 100%;
     width: 100%;
+
  
 }
 
 section {
   min-height: 100vh;
-  padding-top: 15rem;
-  margin: 1rem 0;
 
 }
 
-a {
-  -webkit-tap-highlight-color: transparent;
+footer, section::before {
+  display: block;
+  content: "";
+  height: 8rem;
+  margin: 8rem 0 0 0;
+
 }
+
 
 
 

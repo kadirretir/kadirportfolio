@@ -6,7 +6,7 @@ const GitHub = () => {
     return (
         <GitHubSection id="github">
             <GitHubContainer>
-                <GtH1> - Bu sitenin kodlarına göz atın - </GtH1>
+                <GtH1> - GitHub Profilime Göz Atın - </GtH1>
 
                 <GitHubContent>
                     <ContentLeft>
@@ -15,9 +15,9 @@ const GitHub = () => {
 
                     <ContentRight>
                         <P>
-                            Bu sayfadaki kodların ve diğer tüm projelerimdeki kodların 
-                             yazımı bana aittir. İsterseniz sitelerin kodlarını ve nasıl 
-                             oluştuğunu görmek için <LinkHub target="_blank" href="https://github.com/kadirretir">GitHub</LinkHub> profilime bakabilirsiniz.
+                            Bu sitedeki kodlar ve diğer projelerdeki kodlar benim
+                            tarafımdan yazılmıştır. Kodları ve içerikleri 
+                            görmek için <LinkHub target="_blank" href="https://github.com/kadirretir">GitHub</LinkHub> profilime bakabilirsiniz.
                         </P>
                     </ContentRight>
                 </GitHubContent>

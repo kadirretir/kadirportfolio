@@ -2,8 +2,8 @@ import React from 'react'
 import reacthotel from '../../images/reacthotel.png';
 import reactnetflix from '../../images/reactnetflix.png';
 import kadirportfolio from '../../images/kadirportfolio.png';
-import {FaCode} from 'react-icons/fa';
-import {RiPagesLine} from 'react-icons/ri';
+import { FaCode } from 'react-icons/fa';
+import { RiPagesLine } from 'react-icons/ri';
 import {
     Projects,
     ProjectsContainer,
@@ -16,19 +16,23 @@ import {
     H3,
     P,
     PageLink,
-    Buttons
+    Buttons,
+    CardLink
 } from './ProjectsElements';
 
 const Aboutme = () => {
- 
+
     return (
         <>
             <Projects id="projects">
                 <ProjectsContainer>
                     <Cards>
+
                         <Card>
                             <ImgWrapper>
-                                <Img src={reacthotel} width="646" height="360" alt="hotelproject" />
+                                <CardLink target="_blank" href="http://kadirretir.github.io/react-hotel">
+                                    <Img src={reacthotel} width="646" height="360" alt="hotelproject" />
+                                </CardLink>
                             </ImgWrapper>
                             <CardBody>
                                 <CardMiddle>
@@ -42,65 +46,74 @@ const Aboutme = () => {
                                 </CardMiddle>
                                 <Buttons>
                                     <PageLink target="_blank" href="http://kadirretir.github.io/react-hotel">
-                                      <RiPagesLine/>SAYFA
+                                        <RiPagesLine />SAYFA
                                         </PageLink>
 
                                     <PageLink target="_blank" href="https://github.com/kadirretir/react-hotel">
-                                    <FaCode/>KOD
+                                        <FaCode />KOD
                                         </PageLink>
                                 </Buttons>
                             </CardBody>
                         </Card>
 
-                        <Card>
-                            <ImgWrapper>
-                                <Img src={reactnetflix} width="617" height="360" alt="netflixclone" />
-                            </ImgWrapper>
-                            <CardBody>
-                                <CardMiddle>
-                                    <H3>NETFLIX SAYFA KLONU</H3>
-                                    <P>
-                                        Bu proje TMDB API'dan verileri çekip Context API'de
-                                        state'e atayarak, oradan UI'a aktarıyor.
+
+                       
+                            <Card>
+                                <ImgWrapper>
+                                <CardLink  target="_blank" href="http://kadirretir.github.io/netflix-clone-react">
+                                     <Img src={reactnetflix} width="617" height="360" alt="netflixclone" />
+                                    </CardLink>
+                                </ImgWrapper>
+                                <CardBody>
+                                    <CardMiddle>
+                                        <H3>NETFLIX SAYFA KLONU</H3>
+                                        <P>
+                                            Bu proje TMDB API'dan verileri çekip Context API'de
+                                            state'e atayarak, oradan UI'a aktarıyor.
                                   </P>
-                                </CardMiddle>
-                                <Buttons>
-                                    <PageLink target="_blank" href="http://kadirretir.github.io/netflix-clone-react">
-                                       <RiPagesLine/> SAYFA
+                                    </CardMiddle>
+                                    <Buttons>
+                                        <PageLink target="_blank" href="http://kadirretir.github.io/netflix-clone-react">
+                                            <RiPagesLine /> SAYFA
                                         </PageLink>
 
-                                    <PageLink target="_blank" href="https://github.com/kadirretir/netflix-clone-react">
-                                    <FaCode/> KOD
+                                        <PageLink target="_blank" href="https://github.com/kadirretir/netflix-clone-react">
+                                            <FaCode /> KOD
                                         </PageLink>
-                                </Buttons>
-                            </CardBody>
-                        </Card>
+                                    </Buttons>
+                                </CardBody>
+                            </Card>
+             
 
-                        <Card>
-                            <ImgWrapper>
-                                <Img src={kadirportfolio} width="617" height="360" alt="portfolio" />
-                            </ImgWrapper>
-                            <CardBody>
-                                <CardMiddle>
-                                    <H3>PORTFOLİO SİTESİ</H3>
-                                    <P>
-                                        Bu proje beni, benim kim olduğumu, yaptığım siteleri,
-                                        bildiğim teknolojileri ve kim olduğumu yansıtıyor.
-                                        Proje React ile SPA olarak styled components'ler kullanılarak 
-                                        oluşturuldu.
+                       
+                            <Card>
+                                <ImgWrapper>
+                                <CardLink target="_blank" href="https://github.com/kadirretir/kadirportfolio"> 
+                                    <Img src={kadirportfolio} width="617" height="360" alt="portfolio" />
+                                    </CardLink>
+                                </ImgWrapper>
+                                <CardBody>
+                                    <CardMiddle>
+                                        <H3>PORTFOLİO SİTESİ</H3>
+                                        <P>
+                                            Bu proje beni, benim kim olduğumu, yaptığım siteleri,
+                                            bildiğim teknolojileri ve kim olduğumu yansıtıyor.
+                                            Proje React ile SPA olarak styled components'ler kullanılarak
+                                            oluşturuldu.
                                   </P>
-                                </CardMiddle>
-                                <Buttons>
-                                    <PageLink target="_blank" href="https://kadirretir.github.io/kadirportfolio/">
-                                       <RiPagesLine/> SAYFA
+                                    </CardMiddle>
+                                    <Buttons>
+                                        <PageLink target="_blank" href="https://kadirretir.github.io/kadirportfolio/">
+                                            <RiPagesLine /> SAYFA
                                         </PageLink>
 
-                                    <PageLink target="_blank" href="https://github.com/kadirretir/kadirportfolio">
-                                    <FaCode/> KOD
+                                        <PageLink target="_blank" href="https://github.com/kadirretir/kadirportfolio">
+                                            <FaCode /> KOD
                                         </PageLink>
-                                </Buttons>
-                            </CardBody>
-                        </Card>
+                                    </Buttons>
+                                </CardBody>
+                            </Card>
+                     
                     </Cards>
 
                 </ProjectsContainer>

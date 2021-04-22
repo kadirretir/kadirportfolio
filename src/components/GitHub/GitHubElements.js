@@ -6,11 +6,11 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+min-height: 40vh;
 `
 
 export const GitHubContainer = styled.div`
 width: 80%;
-margin: 0 auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -21,28 +21,21 @@ align-items: center;
 `
 
 export const GtH1 = styled.h1`
-font-family: var(--secondary-font);
+font-size: 5rem;
 color: var(--primary-color);
-font-size: 4rem;
+font-family: var(--secondary-font);
+margin-bottom: 2rem;
 margin-top: 2rem;
 margin-bottom: 5rem;
 
-@media screen and (max-width: 1200px) {
-    font-size: 3rem;
-}
-
 @media screen and (max-width: 768px) {
-    font-size: 2.7rem;
-}
-
-@media screen and (max-width: 576px) {
-    font-size: 2rem;
+    font-size: 3.1rem;
 }
 `
 
 export const GitHubContent = styled.div`
-width: 80%;
-min-height: 50vh;
+width: 50%;
+min-height: 30vh;
 display: grid;
 grid-template-columns: 50% 50%;
 justify-content: space-between;
@@ -94,10 +87,9 @@ align-items: center;
 `
 
 export const ContentRight = styled.div`
-text-align: center;
-width: 70%;
 @media screen and (max-width: 1200px) {
     width: 100%;
+    text-align: center;
 }
 `
 
