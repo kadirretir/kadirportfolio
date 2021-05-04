@@ -1,6 +1,7 @@
 import React from 'react'
 import reacthotel from '../../images/reacthotel.png';
 import reactnetflix from '../../images/reactnetflix.png';
+import reduxecommerce from '../../images/reduxecommerce.png';
 import kadirportfolio from '../../images/kadirportfolio.png';
 import { FaCode } from 'react-icons/fa';
 import { RiPagesLine } from 'react-icons/ri';
@@ -84,7 +85,33 @@ const Aboutme = () => {
                                 </CardBody>
                             </Card>
              
+                            <Card>
+                                <ImgWrapper>
+                                <CardLink target="_blank" href="https://kadirretir.github.io/redux-ecommerce/"> 
+                                    <Img src={reduxecommerce} width="617" height="360" alt="reduxecommerce" />
+                                    </CardLink>
+                                </ImgWrapper>
+                                <CardBody>
+                                    <CardMiddle>
+                                        <H3>REACT REDUX ALIŞVERİŞ SEPETİ UYGULAMASI</H3>
+                                        <P>
+                                            Bu proje Redux state yönetim sistemini kullanarak,
+                                            local veri ile sepete ekleme, çıkarma, veriler ile UI'da
+                                            koşullu render işlemler gerçekleştirme ve verileri göstermeyi
+                                            içeriyor.
+                                  </P>
+                                    </CardMiddle>
+                                    <Buttons>
+                                        <PageLink target="_blank" href="https://kadirretir.github.io/redux-ecommerce/">
+                                            <RiPagesLine /> SAYFA
+                                        </PageLink>
 
+                                        <PageLink target="_blank" href="https://github.com/kadirretir/redux-ecommerce">
+                                            <FaCode /> KOD
+                                        </PageLink>
+                                    </Buttons>
+                                </CardBody>
+                            </Card>
                        
                             <Card>
                                 <ImgWrapper>
