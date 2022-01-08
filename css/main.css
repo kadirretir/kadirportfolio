@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&family=Playfair+Display&display=swap");
+
+:root {
+  --primary-font: "Dosis", sans-serif;
+  --secondary-font: "Playfair Display", serif;
+
+  --header-color: rgba(23, 23, 24, 1);
+  --third-color: rgba(249, 181, 58, 1);
+  --light-color: rgba(255, 255, 255, 1);
+  --light-color-social: rgba(255, 255, 255, 0.7);
+}
+
+html,
+body {
+  font-family: var(--primary-font);
+  font-size: 10px;
+  background-color: #eeeeee;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/**  HEADER STYLES  **/
+#header {
+  background-color: var(--header-color);
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.nav-link {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.navbar {
+  height: 6.5vh;
+}
+
+.nav-item a i {
+  font-size: 3.2rem;
+  color: var(--light-color-social);
+  margin-left: 0.4rem;
+}
+
+.nav-item a i {
+  font-size: 3rem;
+  color: var(--light-color-social);
+  margin-left: 0.4rem;
+  transition: all 0.2s ease;
+}
+
+.nav-item a i:hover {
+  color: var(--third-color);
+}
+
+.nav-link:hover {
+  color: var(--third-color) !important;
+}
+
+
+
+/** HERO STYLES **/
+#hero {
+  background-color: var(--light-color);
+}
+#hero .container-fluid {
+  min-height: 630px;
+}
+
+.hero-right h1 {
+  font-family: var(--secondary-font);
+  color: var(--third-color);
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.hero-right h1 span {
+  color: var(--header-color);
+}
+
+.hero-right h2 {
+  color: grey;
+  font-size: 2.3rem;
+}
+
+/** CV SECTION STYLE  **/
+
+#cv-section {
+  min-height: 400px;
+  height: 400px;
+  background: linear-gradient(to right, rgba(23, 23, 24, 0.8), rgba(23, 23, 24, 1));
+}
+
+.cv-section-middle h1 {
+  font-family: var(--secondary-font);
+  font-size: 2.8rem;
+  color: #FFFFFF;
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+  line-height: 4.5rem;
+}
+
+.cv-section-middle h3 {
+  font-family: var(--secondary-font);
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+}
+
+.cv-section-middle .btn {
+  font-size: 2rem;
+  width: 150px;
+  height: 50px;
+  border-radius: 0.7rem;
+
+}
+
+.btn i {
+ margin-right: 0.5rem;
+}
+
+.btn:hover i {
+ color: var(--third-color);
+}
+
+/** ABOUT ME SECTION **/
+#whoiskadir {
+  height: 800px;
+  padding: 2rem 0;
+}
+
+#whoiskadir .container .card-body {
+  font-family: var(--secondary-font);
+}
+
+
+#whoiskadir .container .card-title {
+  font-size: 4rem;
+  font-weight: 600;  
+  color: var(--third-color);
+}
+
+#whoiskadir .container .card-text {
+  color: grey;
+  font-size: 2rem;
+}
+
+#whoiskadir .container .card-text i {
+  color: var(--third-color);
+}
+
+/** PROJECT STYLES  **/
+#projects {
+  height: 1200px;
+}
+
+.project-header {
+  font-size: 3.5rem;
+  color: var(--third-color);
+  font-weight: 600;
+  font-family: var(--secondary-font);
+  padding-bottom: 3rem;
+}
+
+#projects .container .card-body {
+  font-family: var(--primary-font);
+}
+
+
+#projects .container .card-title {
+  font-size: 2.8rem;
+  font-weight: 600;  
+  color: var(--header-color);
+}
+
+#projects .container .card-text {
+  color: grey;
+  font-size: 2rem;
+}
+#projects .container .card {
+  transition: all 0.2s ease-in;
+}
+
+#projects .container .card:hover {
+  transform: translateY(-5px);
+}
+
+#projects .btn {
+  font-size: 1.5rem;
+  line-height: 30px;
+  width: 110px;
+  height: 40px;
+  border-radius: 0.7rem;
+}
+
+
+/** RESPONSIVE STYLES **/
+/**  992PX **/
+@media screen and (max-width: 992px) {
+  #cv-section {
+    min-height: 600px;
+    height: 600px;
+  }
+
+  .cv-section-middle h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    line-height: 3.6rem;
+}
+}
+/**  1200PX **/
+@media screen and (max-width: 1200px) {
+#whoiskadir {
+  height: auto;
+}
+}
+
+/**  768PX **/
+@media screen and (max-width: 768px) {
+.card {
+  width: 100% !important;
+}
+  }
+
+
