@@ -156,10 +156,6 @@ a {
 }
 
 /** PROJECT STYLES  **/
-#projects {
-  height: 1200px;
-}
-
 .project-header {
   font-size: 3.5rem;
   color: var(--third-color);
@@ -197,6 +193,36 @@ a {
   width: 110px;
   height: 40px;
   border-radius: 0.7rem;
+  font-weight: 600;
+  color: var(--header-color);
+}
+
+/** FOOTER SECTION STYLES  **/
+
+#footer {
+  background: linear-gradient(to right, rgba(23, 23, 24, 0.9), rgba(23, 23, 24, 1));
+}
+
+#footer .footer-text {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+#footer .footer-headings {
+  color: var(--third-color);
+}
+
+.copyright {
+  color: var(--light-color-social);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+#footer .footer-links {
+  font-family: var(--secondary-font);
+  color: grey;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 
