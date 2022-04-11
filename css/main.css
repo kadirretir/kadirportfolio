@@ -25,6 +25,9 @@ a {
 /**  HEADER STYLES  **/
 #header {
   background-color: var(--header-color);
+  position: fixed;
+  z-index: 999;
+  width: 100%;
 }
 
 .logo {
@@ -118,7 +121,6 @@ a {
   width: 150px;
   height: 50px;
   border-radius: 0.7rem;
-
 }
 
 .btn i {
